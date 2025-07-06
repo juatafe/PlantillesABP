@@ -4,8 +4,8 @@ site_url: https://juatafe.github.io/PlantillesABP/
 
 theme:
   name: material
-  logo: "img/logos/logoJust.png"
-  favicon: "img/logos/logo50.ico"
+  logo: "assets/img/logos/logoJust.png"
+  favicon: "assets/img/logos/logo50.ico"
   language: ca
   features:
     - navigation.top
@@ -87,7 +87,7 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_image: "img/fondo.png"
+        background_image: "assets/img/fondo.png"
         background_color: "#0FF1CE8F"
         text_color: "#000000"
         button_color: "#000000"

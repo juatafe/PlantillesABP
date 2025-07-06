@@ -35,7 +35,7 @@
 .md-header__button.md-logo::before {
     content: "";
     display: inline-block;
-    background-image: url("../img/logos/logoJust.png"); /* Ruta del primer logo */
+    background-image: url("../../assets/img/logos/logoJust.png"); /* Ruta del primer logo */
     background-size: contain;
     background-repeat: no-repeat;
     width: 7vw;  
@@ -56,7 +56,7 @@
 .md-header__button.md-logo::after {
     content: "";
     display: inline-block;
-    background-image: url("../img/logos/GvaNext.png"); /* Ruta del tercer logo */
+    background-image: url("../../assets/img/logos/GvaNext.png"); /* Ruta del tercer logo */
     background-size: contain;
     background-repeat: no-repeat;
     width: 15vw;  
@@ -79,7 +79,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7)),url("../img/fondo.png"); /* Ruta de la imatge */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7)),url("../../assets/img/fondo.png"); /* Ruta de la imatge */
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -120,13 +120,13 @@ body {
 
 /* 📌 Rutes correctes per a `customs.css` */
 .footer-left {
-  background-image: url("./img/logos/FonsVal.png");
+  background-image: url("../../assets/img/logos/FonsVal.png");
   margin-right: 2vw;
   flex-grow: 1;
 }
 
 .footer-right {
-  background-image: url("./img/logos/miniPla.png");
+  background-image: url("../../assets/img/logos/miniPla.png");
   margin-left: 2vw;
   width: 18vw;
   flex-grow: 2;
